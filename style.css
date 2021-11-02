@@ -1,0 +1,142 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+body{
+    background-color: whitesmoke;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: green;
+}
+/* a:visited{
+    color: indigo;
+} */
+.container{
+    width: 80%;
+    margin: auto;
+    background: white;
+    line-height: 1.2em;
+}
+.button{
+    background-color: black;
+    color: blanchedalmond;
+    padding: 10px 15px;
+    border: none;
+}
+.button:hover{
+    background-color: red;
+    color: blanchedalmond;
+}
+.clr{
+    clear: both;
+}
+.box-1{
+    background-color: #333;
+    color: white;
+    text-align: justify;
+    border: 5px solid tomato;
+    padding: 10px;
+    margin: 10px 0px;
+}
+.box-1 h1{
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    text-decoration: underline;
+    letter-spacing: 0.2em;
+    /* word-spacing: 1em; */
+}
+.box-2{
+    border: 3px dotted goldenrod;
+    margin: 20px 0px;
+    padding: 20px;
+}
+.categories{
+    border: 3px solid greenyellow;
+    padding: 10px 0px;
+    border-radius: 4px 20px;
+}
+.categories h2{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-weight: 300;
+}
+.categories ul{
+    padding: 30px;
+    list-style-type: square;   
+}
+.categories li{
+    padding-bottom: 8px;
+    border-bottom: 1px solid black;
+}
+.my-form{
+    padding: 20px;
+}
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+.form-group label{
+    display: block;
+}
+.form-group input[type="text"], .form-group textarea{
+    padding: 8px;
+    width: 100%;
+    resize: none; 
+}
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid grey;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#main-block{
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 10px;
+    color: honeydew;
+    background-color: grey;
+}
+.p-box{
+    width: 100%;
+    height: 600px;
+    border: 1px solid grey;
+    position: relative;
+    margin-top: 30px;
+    background: linear-gradient(120deg, red, blanchedalmond, blue );
+}
+.p-box h1{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+.p-box h2{
+    position: absolute;
+    bottom: 100px;
+    right: 200px;
+}
+.fix-me{
+    position: fixed;
+    top: 400px;
+}
+/* .my-list li: first & last -child{
+    background: gray;
+} */
+.my-list li:nth-child(even) {
+    background: gray;
+}
